@@ -4,3 +4,6 @@
 [submodule "utils/MagicalRecord"]
 	path = utils/MagicalRecord
 	url = https://github.com/magicalpanda/MagicalRecord.git
+[submodule "utils/ATMHud"]
+	path = utils/ATMHud
+	url = https://github.com/atomton/ATMHud.git

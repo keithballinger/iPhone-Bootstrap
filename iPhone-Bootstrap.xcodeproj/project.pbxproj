@@ -44,6 +44,21 @@
 		51D7708C14F5C48900A8A015 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7707A14F5C48900A8A015 /* NSPersistentStoreCoordinator+MagicalRecord.m */; };
 		51D7708D14F5C48900A8A015 /* MagicalRecordHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7707D14F5C48900A8A015 /* MagicalRecordHelpers.m */; };
 		51D7708E14F5C48900A8A015 /* MRCoreDataAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7708014F5C48900A8A015 /* MRCoreDataAction.m */; };
+		51D770B414F5C56F00A8A015 /* 11-x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D7709014F5C56F00A8A015 /* 11-x.png */; };
+		51D770B514F5C56F00A8A015 /* 19-check.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D7709114F5C56F00A8A015 /* 19-check.png */; };
+		51D770B714F5C56F00A8A015 /* ATMHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7709414F5C56F00A8A015 /* ATMHud.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51D770B814F5C56F00A8A015 /* ATMHudQueueItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7709B14F5C56F00A8A015 /* ATMHudQueueItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51D770B914F5C56F00A8A015 /* ATMHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7709D14F5C56F00A8A015 /* ATMHudView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51D770BA14F5C56F00A8A015 /* ATMProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7709F14F5C56F00A8A015 /* ATMProgressLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51D770BB14F5C56F00A8A015 /* ATMSoundFX.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D770A114F5C56F00A8A015 /* ATMSoundFX.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51D770BC14F5C56F00A8A015 /* ATMTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D770A314F5C56F00A8A015 /* ATMTextLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51D770BF14F5C56F00A8A015 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D770A914F5C56F00A8A015 /* Icon.png */; };
+		51D770C014F5C56F00A8A015 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51D770AA14F5C56F00A8A015 /* Icon@2x.png */; };
+		51D770C114F5C56F00A8A015 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 51D770AB14F5C56F00A8A015 /* LICENSE */; };
+		51D770C414F5C56F00A8A015 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51D770AE14F5C56F00A8A015 /* pop.wav */; };
+		51D770C514F5C56F00A8A015 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 51D770AF14F5C56F00A8A015 /* README.md */; };
+		51D770CA14F5C5FD00A8A015 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D770C914F5C5FD00A8A015 /* QuartzCore.framework */; };
+		51D770CC14F5C60E00A8A015 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D770CB14F5C60E00A8A015 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +139,29 @@
 		51D7707E14F5C48900A8A015 /* MagicalRecordShorthand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordShorthand.h; sourceTree = "<group>"; };
 		51D7707F14F5C48900A8A015 /* MRCoreDataAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCoreDataAction.h; sourceTree = "<group>"; };
 		51D7708014F5C48900A8A015 /* MRCoreDataAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCoreDataAction.m; sourceTree = "<group>"; };
+		51D7709014F5C56F00A8A015 /* 11-x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-x.png"; sourceTree = "<group>"; };
+		51D7709114F5C56F00A8A015 /* 19-check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-check.png"; sourceTree = "<group>"; };
+		51D7709314F5C56F00A8A015 /* ATMHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMHud.h; sourceTree = "<group>"; };
+		51D7709414F5C56F00A8A015 /* ATMHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMHud.m; sourceTree = "<group>"; };
+		51D7709814F5C56F00A8A015 /* ATMHud_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMHud_Prefix.pch; sourceTree = "<group>"; };
+		51D7709914F5C56F00A8A015 /* ATMHudDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMHudDelegate.h; sourceTree = "<group>"; };
+		51D7709A14F5C56F00A8A015 /* ATMHudQueueItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMHudQueueItem.h; sourceTree = "<group>"; };
+		51D7709B14F5C56F00A8A015 /* ATMHudQueueItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMHudQueueItem.m; sourceTree = "<group>"; };
+		51D7709C14F5C56F00A8A015 /* ATMHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMHudView.h; sourceTree = "<group>"; };
+		51D7709D14F5C56F00A8A015 /* ATMHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMHudView.m; sourceTree = "<group>"; };
+		51D7709E14F5C56F00A8A015 /* ATMProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMProgressLayer.h; sourceTree = "<group>"; };
+		51D7709F14F5C56F00A8A015 /* ATMProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMProgressLayer.m; sourceTree = "<group>"; };
+		51D770A014F5C56F00A8A015 /* ATMSoundFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMSoundFX.h; sourceTree = "<group>"; };
+		51D770A114F5C56F00A8A015 /* ATMSoundFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMSoundFX.m; sourceTree = "<group>"; };
+		51D770A214F5C56F00A8A015 /* ATMTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMTextLayer.h; sourceTree = "<group>"; };
+		51D770A314F5C56F00A8A015 /* ATMTextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMTextLayer.m; sourceTree = "<group>"; };
+		51D770A914F5C56F00A8A015 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		51D770AA14F5C56F00A8A015 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		51D770AB14F5C56F00A8A015 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		51D770AE14F5C56F00A8A015 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		51D770AF14F5C56F00A8A015 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		51D770C914F5C5FD00A8A015 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		51D770CB14F5C60E00A8A015 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +169,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D770CC14F5C60E00A8A015 /* AudioToolbox.framework in Frameworks */,
+				51D770CA14F5C5FD00A8A015 /* QuartzCore.framework in Frameworks */,
 				51D7705F14F5C43700A8A015 /* CoreData.framework in Frameworks */,
 				51D7705D14F5C32B00A8A015 /* Security.framework in Frameworks */,
 				51D7705B14F5C31F00A8A015 /* SystemConfiguration.framework in Frameworks */,
@@ -157,6 +197,8 @@
 		51D76FF114F5C08800A8A015 = {
 			isa = PBXGroup;
 			children = (
+				51D770CB14F5C60E00A8A015 /* AudioToolbox.framework */,
+				51D770C914F5C5FD00A8A015 /* QuartzCore.framework */,
 				51D7705E14F5C43700A8A015 /* CoreData.framework */,
 				51D7700614F5C08800A8A015 /* iPhone-Bootstrap */,
 				51D7701E14F5C08800A8A015 /* iPhone-BootstrapTests */,
@@ -232,6 +274,7 @@
 		51D7703714F5C1BB00A8A015 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				51D7708F14F5C56F00A8A015 /* ATMHud */,
 				51D7706014F5C48900A8A015 /* MagicalRecord */,
 				51D7703914F5C2E200A8A015 /* MKNetworkKit */,
 			);
@@ -333,6 +376,35 @@
 			path = DataImport;
 			sourceTree = "<group>";
 		};
+		51D7708F14F5C56F00A8A015 /* ATMHud */ = {
+			isa = PBXGroup;
+			children = (
+				51D7709014F5C56F00A8A015 /* 11-x.png */,
+				51D7709114F5C56F00A8A015 /* 19-check.png */,
+				51D7709314F5C56F00A8A015 /* ATMHud.h */,
+				51D7709414F5C56F00A8A015 /* ATMHud.m */,
+				51D7709814F5C56F00A8A015 /* ATMHud_Prefix.pch */,
+				51D7709914F5C56F00A8A015 /* ATMHudDelegate.h */,
+				51D7709A14F5C56F00A8A015 /* ATMHudQueueItem.h */,
+				51D7709B14F5C56F00A8A015 /* ATMHudQueueItem.m */,
+				51D7709C14F5C56F00A8A015 /* ATMHudView.h */,
+				51D7709D14F5C56F00A8A015 /* ATMHudView.m */,
+				51D7709E14F5C56F00A8A015 /* ATMProgressLayer.h */,
+				51D7709F14F5C56F00A8A015 /* ATMProgressLayer.m */,
+				51D770A014F5C56F00A8A015 /* ATMSoundFX.h */,
+				51D770A114F5C56F00A8A015 /* ATMSoundFX.m */,
+				51D770A214F5C56F00A8A015 /* ATMTextLayer.h */,
+				51D770A314F5C56F00A8A015 /* ATMTextLayer.m */,
+				51D770A914F5C56F00A8A015 /* Icon.png */,
+				51D770AA14F5C56F00A8A015 /* Icon@2x.png */,
+				51D770AB14F5C56F00A8A015 /* LICENSE */,
+				51D770AE14F5C56F00A8A015 /* pop.wav */,
+				51D770AF14F5C56F00A8A015 /* README.md */,
+			);
+			name = ATMHud;
+			path = utils/ATMHud;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -404,6 +476,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D7700B14F5C08800A8A015 /* InfoPlist.strings in Resources */,
+				51D770B414F5C56F00A8A015 /* 11-x.png in Resources */,
+				51D770B514F5C56F00A8A015 /* 19-check.png in Resources */,
+				51D770BF14F5C56F00A8A015 /* Icon.png in Resources */,
+				51D770C014F5C56F00A8A015 /* Icon@2x.png in Resources */,
+				51D770C114F5C56F00A8A015 /* LICENSE in Resources */,
+				51D770C414F5C56F00A8A015 /* pop.wav in Resources */,
+				51D770C514F5C56F00A8A015 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +541,12 @@
 				51D7708C14F5C48900A8A015 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */,
 				51D7708D14F5C48900A8A015 /* MagicalRecordHelpers.m in Sources */,
 				51D7708E14F5C48900A8A015 /* MRCoreDataAction.m in Sources */,
+				51D770B714F5C56F00A8A015 /* ATMHud.m in Sources */,
+				51D770B814F5C56F00A8A015 /* ATMHudQueueItem.m in Sources */,
+				51D770B914F5C56F00A8A015 /* ATMHudView.m in Sources */,
+				51D770BA14F5C56F00A8A015 /* ATMProgressLayer.m in Sources */,
+				51D770BB14F5C56F00A8A015 /* ATMSoundFX.m in Sources */,
+				51D770BC14F5C56F00A8A015 /* ATMTextLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
