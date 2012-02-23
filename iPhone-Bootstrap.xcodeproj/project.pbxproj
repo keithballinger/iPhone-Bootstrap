@@ -18,6 +18,17 @@
 		51D7701B14F5C08800A8A015 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D7700214F5C08800A8A015 /* Foundation.framework */; };
 		51D7702314F5C08800A8A015 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51D7702114F5C08800A8A015 /* InfoPlist.strings */; };
 		51D7702614F5C08800A8A015 /* iPhone_BootstrapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7702514F5C08800A8A015 /* iPhone_BootstrapTests.m */; };
+		51D7705014F5C2E200A8A015 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7703E14F5C2E200A8A015 /* NSData+Base64.m */; };
+		51D7705114F5C2E200A8A015 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7704014F5C2E200A8A015 /* NSDate+RFC1123.m */; };
+		51D7705214F5C2E200A8A015 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7704214F5C2E200A8A015 /* NSDictionary+RequestEncoding.m */; };
+		51D7705314F5C2E200A8A015 /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7704414F5C2E200A8A015 /* NSString+MKNetworkKitAdditions.m */; };
+		51D7705414F5C2E200A8A015 /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7704614F5C2E200A8A015 /* UIAlertView+MKNetworkKitAdditions.m */; };
+		51D7705514F5C2E200A8A015 /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7704814F5C2E200A8A015 /* MKNetworkEngine.m */; };
+		51D7705614F5C2E200A8A015 /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7704B14F5C2E200A8A015 /* MKNetworkOperation.m */; };
+		51D7705714F5C2E200A8A015 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7704E14F5C2E200A8A015 /* Reachability.m */; };
+		51D7705914F5C30B00A8A015 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D7705814F5C30B00A8A015 /* CFNetwork.framework */; };
+		51D7705B14F5C31F00A8A015 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D7705A14F5C31E00A8A015 /* SystemConfiguration.framework */; };
+		51D7705D14F5C32B00A8A015 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D7705C14F5C32B00A8A015 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +46,38 @@
 		51D7700014F5C08800A8A015 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		51D7700214F5C08800A8A015 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		51D7700414F5C08800A8A015 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		51D7700814F5C08800A8A015 /* iPhone-Bootstrap-Info.plist */ = {isa = PBXFileReference; path = "iPhone-Bootstrap-Info.plist"; sourceTree = "<group>"; };
+		51D7700814F5C08800A8A015 /* iPhone-Bootstrap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhone-Bootstrap-Info.plist"; sourceTree = "<group>"; };
 		51D7700A14F5C08800A8A015 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51D7700C14F5C08800A8A015 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		51D7700E14F5C08800A8A015 /* iPhone-Bootstrap-Prefix.pch */ = {isa = PBXFileReference; path = "iPhone-Bootstrap-Prefix.pch"; sourceTree = "<group>"; };
-		51D7700F14F5C08800A8A015 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		51D7700E14F5C08800A8A015 /* iPhone-Bootstrap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhone-Bootstrap-Prefix.pch"; sourceTree = "<group>"; };
+		51D7700F14F5C08800A8A015 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		51D7701014F5C08800A8A015 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		51D7701714F5C08800A8A015 /* iPhone-BootstrapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPhone-BootstrapTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D7701814F5C08800A8A015 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		51D7702014F5C08800A8A015 /* iPhone-BootstrapTests-Info.plist */ = {isa = PBXFileReference; path = "iPhone-BootstrapTests-Info.plist"; sourceTree = "<group>"; };
+		51D7702014F5C08800A8A015 /* iPhone-BootstrapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhone-BootstrapTests-Info.plist"; sourceTree = "<group>"; };
 		51D7702214F5C08800A8A015 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		51D7702414F5C08800A8A015 /* iPhone_BootstrapTests.h */ = {isa = PBXFileReference; path = iPhone_BootstrapTests.h; sourceTree = "<group>"; };
+		51D7702414F5C08800A8A015 /* iPhone_BootstrapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhone_BootstrapTests.h; sourceTree = "<group>"; };
 		51D7702514F5C08800A8A015 /* iPhone_BootstrapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhone_BootstrapTests.m; sourceTree = "<group>"; };
+		51D7703D14F5C2E200A8A015 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		51D7703E14F5C2E200A8A015 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		51D7703F14F5C2E200A8A015 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		51D7704014F5C2E200A8A015 /* NSDate+RFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		51D7704114F5C2E200A8A015 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		51D7704214F5C2E200A8A015 /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		51D7704314F5C2E200A8A015 /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		51D7704414F5C2E200A8A015 /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		51D7704514F5C2E200A8A015 /* UIAlertView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		51D7704614F5C2E200A8A015 /* UIAlertView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		51D7704714F5C2E200A8A015 /* MKNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkEngine.h; sourceTree = "<group>"; };
+		51D7704814F5C2E200A8A015 /* MKNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkEngine.m; sourceTree = "<group>"; };
+		51D7704914F5C2E200A8A015 /* MKNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkKit.h; sourceTree = "<group>"; };
+		51D7704A14F5C2E200A8A015 /* MKNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkOperation.h; sourceTree = "<group>"; };
+		51D7704B14F5C2E200A8A015 /* MKNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkOperation.m; sourceTree = "<group>"; };
+		51D7704D14F5C2E200A8A015 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		51D7704E14F5C2E200A8A015 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		51D7705814F5C30B00A8A015 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		51D7705A14F5C31E00A8A015 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		51D7705C14F5C32B00A8A015 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D7705D14F5C32B00A8A015 /* Security.framework in Frameworks */,
+				51D7705B14F5C31F00A8A015 /* SystemConfiguration.framework in Frameworks */,
+				51D7705914F5C30B00A8A015 /* CFNetwork.framework in Frameworks */,
 				51D7700114F5C08800A8A015 /* UIKit.framework in Frameworks */,
 				51D7700314F5C08800A8A015 /* Foundation.framework in Frameworks */,
 				51D7700514F5C08800A8A015 /* CoreGraphics.framework in Frameworks */,
@@ -95,6 +129,9 @@
 		51D76FFF14F5C08800A8A015 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51D7705C14F5C32B00A8A015 /* Security.framework */,
+				51D7705A14F5C31E00A8A015 /* SystemConfiguration.framework */,
+				51D7705814F5C30B00A8A015 /* CFNetwork.framework */,
 				51D7700014F5C08800A8A015 /* UIKit.framework */,
 				51D7700214F5C08800A8A015 /* Foundation.framework */,
 				51D7700414F5C08800A8A015 /* CoreGraphics.framework */,
@@ -106,6 +143,7 @@
 		51D7700614F5C08800A8A015 /* iPhone-Bootstrap */ = {
 			isa = PBXGroup;
 			children = (
+				51D7703714F5C1BB00A8A015 /* Utils */,
 				51D7700F14F5C08800A8A015 /* AppDelegate.h */,
 				51D7701014F5C08800A8A015 /* AppDelegate.m */,
 				51D7700714F5C08800A8A015 /* Supporting Files */,
@@ -141,6 +179,55 @@
 				51D7702114F5C08800A8A015 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51D7703714F5C1BB00A8A015 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				51D7703914F5C2E200A8A015 /* MKNetworkKit */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		51D7703914F5C2E200A8A015 /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				51D7703A14F5C2E200A8A015 /* Categories */,
+				51D7704714F5C2E200A8A015 /* MKNetworkEngine.h */,
+				51D7704814F5C2E200A8A015 /* MKNetworkEngine.m */,
+				51D7704914F5C2E200A8A015 /* MKNetworkKit.h */,
+				51D7704A14F5C2E200A8A015 /* MKNetworkOperation.h */,
+				51D7704B14F5C2E200A8A015 /* MKNetworkOperation.m */,
+				51D7704C14F5C2E200A8A015 /* Reachability */,
+			);
+			name = MKNetworkKit;
+			path = utils/MKNetworkKit/MKNetworkKit;
+			sourceTree = SOURCE_ROOT;
+		};
+		51D7703A14F5C2E200A8A015 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				51D7703D14F5C2E200A8A015 /* NSData+Base64.h */,
+				51D7703E14F5C2E200A8A015 /* NSData+Base64.m */,
+				51D7703F14F5C2E200A8A015 /* NSDate+RFC1123.h */,
+				51D7704014F5C2E200A8A015 /* NSDate+RFC1123.m */,
+				51D7704114F5C2E200A8A015 /* NSDictionary+RequestEncoding.h */,
+				51D7704214F5C2E200A8A015 /* NSDictionary+RequestEncoding.m */,
+				51D7704314F5C2E200A8A015 /* NSString+MKNetworkKitAdditions.h */,
+				51D7704414F5C2E200A8A015 /* NSString+MKNetworkKitAdditions.m */,
+				51D7704514F5C2E200A8A015 /* UIAlertView+MKNetworkKitAdditions.h */,
+				51D7704614F5C2E200A8A015 /* UIAlertView+MKNetworkKitAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		51D7704C14F5C2E200A8A015 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				51D7704D14F5C2E200A8A015 /* Reachability.h */,
+				51D7704E14F5C2E200A8A015 /* Reachability.m */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +337,14 @@
 			files = (
 				51D7700D14F5C08800A8A015 /* main.m in Sources */,
 				51D7701114F5C08800A8A015 /* AppDelegate.m in Sources */,
+				51D7705014F5C2E200A8A015 /* NSData+Base64.m in Sources */,
+				51D7705114F5C2E200A8A015 /* NSDate+RFC1123.m in Sources */,
+				51D7705214F5C2E200A8A015 /* NSDictionary+RequestEncoding.m in Sources */,
+				51D7705314F5C2E200A8A015 /* NSString+MKNetworkKitAdditions.m in Sources */,
+				51D7705414F5C2E200A8A015 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
+				51D7705514F5C2E200A8A015 /* MKNetworkEngine.m in Sources */,
+				51D7705614F5C2E200A8A015 /* MKNetworkOperation.m in Sources */,
+				51D7705714F5C2E200A8A015 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +506,7 @@
 				51D7702B14F5C08800A8A015 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51D7702C14F5C08800A8A015 /* Build configuration list for PBXNativeTarget "iPhone-BootstrapTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +515,7 @@
 				51D7702E14F5C08800A8A015 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
