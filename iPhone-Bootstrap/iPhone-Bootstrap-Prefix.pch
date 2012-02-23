@@ -13,8 +13,14 @@
     #import <Foundation/Foundation.h>
 
     //
-    // MKNetworkKit header
+    // MKNetworkKit support
     //
     #import "MKNetworkKit.h"
+
+    //
+    // Magicalrecord support
+    //
+    #import "CoreData+MagicalRecord.h"
+    #define MR_SHORTHAND 
 
 #endif

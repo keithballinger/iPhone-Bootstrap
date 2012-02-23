@@ -14,6 +14,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //
+    // setup MagicalRecord
+    //
+    [MagicalRecordHelpers setupAutoMigratingCoreDataStack];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
@@ -58,6 +63,11 @@
      Save data if appropriate.
      See also applicationDidEnterBackground:.
      */
+    
+    //
+    // clean up MagicalRecord
+    //
+    [MagicalRecordHelpers cleanUp];
 }
 
 @end

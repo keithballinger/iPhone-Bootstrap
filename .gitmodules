@@ -1,3 +1,6 @@
 [submodule "utils/MKNetworkKit"]
 	path = utils/MKNetworkKit
 	url = https://github.com/MugunthKumar/MKNetworkKit.git
+[submodule "utils/MagicalRecord"]
+	path = utils/MagicalRecord
+	url = https://github.com/magicalpanda/MagicalRecord.git
