@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51D7700114F5C08800A8A015 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D7700014F5C08800A8A015 /* UIKit.framework */; };
+		51D7700314F5C08800A8A015 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D7700214F5C08800A8A015 /* Foundation.framework */; };
+		51D7700514F5C08800A8A015 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D7700414F5C08800A8A015 /* CoreGraphics.framework */; };
+		51D7700B14F5C08800A8A015 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51D7700914F5C08800A8A015 /* InfoPlist.strings */; };
+		51D7700D14F5C08800A8A015 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7700C14F5C08800A8A015 /* main.m */; };
+		51D7701114F5C08800A8A015 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7701014F5C08800A8A015 /* AppDelegate.m */; };
+		51D7701914F5C08800A8A015 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D7701814F5C08800A8A015 /* SenTestingKit.framework */; };
+		51D7701A14F5C08800A8A015 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D7700014F5C08800A8A015 /* UIKit.framework */; };
+		51D7701B14F5C08800A8A015 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D7700214F5C08800A8A015 /* Foundation.framework */; };
+		51D7702314F5C08800A8A015 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51D7702114F5C08800A8A015 /* InfoPlist.strings */; };
+		51D7702614F5C08800A8A015 /* iPhone_BootstrapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7702514F5C08800A8A015 /* iPhone_BootstrapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51D7701C14F5C08800A8A015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51D76FF314F5C08800A8A015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51D76FFB14F5C08800A8A015;
+			remoteInfo = "iPhone-Bootstrap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51D76FFC14F5C08800A8A015 /* iPhone-Bootstrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhone-Bootstrap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D7700014F5C08800A8A015 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		51D7700214F5C08800A8A015 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51D7700414F5C08800A8A015 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		51D7700814F5C08800A8A015 /* iPhone-Bootstrap-Info.plist */ = {isa = PBXFileReference; path = "iPhone-Bootstrap-Info.plist"; sourceTree = "<group>"; };
+		51D7700A14F5C08800A8A015 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51D7700C14F5C08800A8A015 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51D7700E14F5C08800A8A015 /* iPhone-Bootstrap-Prefix.pch */ = {isa = PBXFileReference; path = "iPhone-Bootstrap-Prefix.pch"; sourceTree = "<group>"; };
+		51D7700F14F5C08800A8A015 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		51D7701014F5C08800A8A015 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51D7701714F5C08800A8A015 /* iPhone-BootstrapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPhone-BootstrapTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D7701814F5C08800A8A015 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		51D7702014F5C08800A8A015 /* iPhone-BootstrapTests-Info.plist */ = {isa = PBXFileReference; path = "iPhone-BootstrapTests-Info.plist"; sourceTree = "<group>"; };
+		51D7702214F5C08800A8A015 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51D7702414F5C08800A8A015 /* iPhone_BootstrapTests.h */ = {isa = PBXFileReference; path = iPhone_BootstrapTests.h; sourceTree = "<group>"; };
+		51D7702514F5C08800A8A015 /* iPhone_BootstrapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhone_BootstrapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51D76FF914F5C08800A8A015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D7700114F5C08800A8A015 /* UIKit.framework in Frameworks */,
+				51D7700314F5C08800A8A015 /* Foundation.framework in Frameworks */,
+				51D7700514F5C08800A8A015 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D7701314F5C08800A8A015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D7701914F5C08800A8A015 /* SenTestingKit.framework in Frameworks */,
+				51D7701A14F5C08800A8A015 /* UIKit.framework in Frameworks */,
+				51D7701B14F5C08800A8A015 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51D76FF114F5C08800A8A015 = {
+			isa = PBXGroup;
+			children = (
+				51D7700614F5C08800A8A015 /* iPhone-Bootstrap */,
+				51D7701E14F5C08800A8A015 /* iPhone-BootstrapTests */,
+				51D76FFF14F5C08800A8A015 /* Frameworks */,
+				51D76FFD14F5C08800A8A015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51D76FFD14F5C08800A8A015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51D76FFC14F5C08800A8A015 /* iPhone-Bootstrap.app */,
+				51D7701714F5C08800A8A015 /* iPhone-BootstrapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51D76FFF14F5C08800A8A015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51D7700014F5C08800A8A015 /* UIKit.framework */,
+				51D7700214F5C08800A8A015 /* Foundation.framework */,
+				51D7700414F5C08800A8A015 /* CoreGraphics.framework */,
+				51D7701814F5C08800A8A015 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51D7700614F5C08800A8A015 /* iPhone-Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				51D7700F14F5C08800A8A015 /* AppDelegate.h */,
+				51D7701014F5C08800A8A015 /* AppDelegate.m */,
+				51D7700714F5C08800A8A015 /* Supporting Files */,
+			);
+			path = "iPhone-Bootstrap";
+			sourceTree = "<group>";
+		};
+		51D7700714F5C08800A8A015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51D7700814F5C08800A8A015 /* iPhone-Bootstrap-Info.plist */,
+				51D7700914F5C08800A8A015 /* InfoPlist.strings */,
+				51D7700C14F5C08800A8A015 /* main.m */,
+				51D7700E14F5C08800A8A015 /* iPhone-Bootstrap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51D7701E14F5C08800A8A015 /* iPhone-BootstrapTests */ = {
+			isa = PBXGroup;
+			children = (
+				51D7702414F5C08800A8A015 /* iPhone_BootstrapTests.h */,
+				51D7702514F5C08800A8A015 /* iPhone_BootstrapTests.m */,
+				51D7701F14F5C08800A8A015 /* Supporting Files */,
+			);
+			path = "iPhone-BootstrapTests";
+			sourceTree = "<group>";
+		};
+		51D7701F14F5C08800A8A015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51D7702014F5C08800A8A015 /* iPhone-BootstrapTests-Info.plist */,
+				51D7702114F5C08800A8A015 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51D76FFB14F5C08800A8A015 /* iPhone-Bootstrap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D7702914F5C08800A8A015 /* Build configuration list for PBXNativeTarget "iPhone-Bootstrap" */;
+			buildPhases = (
+				51D76FF814F5C08800A8A015 /* Sources */,
+				51D76FF914F5C08800A8A015 /* Frameworks */,
+				51D76FFA14F5C08800A8A015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPhone-Bootstrap";
+			productName = "iPhone-Bootstrap";
+			productReference = 51D76FFC14F5C08800A8A015 /* iPhone-Bootstrap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51D7701614F5C08800A8A015 /* iPhone-BootstrapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D7702C14F5C08800A8A015 /* Build configuration list for PBXNativeTarget "iPhone-BootstrapTests" */;
+			buildPhases = (
+				51D7701214F5C08800A8A015 /* Sources */,
+				51D7701314F5C08800A8A015 /* Frameworks */,
+				51D7701414F5C08800A8A015 /* Resources */,
+				51D7701514F5C08800A8A015 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51D7701D14F5C08800A8A015 /* PBXTargetDependency */,
+			);
+			name = "iPhone-BootstrapTests";
+			productName = "iPhone-BootstrapTests";
+			productReference = 51D7701714F5C08800A8A015 /* iPhone-BootstrapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51D76FF314F5C08800A8A015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 51D76FF614F5C08800A8A015 /* Build configuration list for PBXProject "iPhone-Bootstrap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 51D76FF114F5C08800A8A015;
+			productRefGroup = 51D76FFD14F5C08800A8A015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51D76FFB14F5C08800A8A015 /* iPhone-Bootstrap */,
+				51D7701614F5C08800A8A015 /* iPhone-BootstrapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51D76FFA14F5C08800A8A015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D7700B14F5C08800A8A015 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D7701414F5C08800A8A015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D7702314F5C08800A8A015 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51D7701514F5C08800A8A015 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51D76FF814F5C08800A8A015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D7700D14F5C08800A8A015 /* main.m in Sources */,
+				51D7701114F5C08800A8A015 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D7701214F5C08800A8A015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D7702614F5C08800A8A015 /* iPhone_BootstrapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51D7701D14F5C08800A8A015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51D76FFB14F5C08800A8A015 /* iPhone-Bootstrap */;
+			targetProxy = 51D7701C14F5C08800A8A015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51D7700914F5C08800A8A015 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51D7700A14F5C08800A8A015 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		51D7702114F5C08800A8A015 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51D7702214F5C08800A8A015 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51D7702714F5C08800A8A015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51D7702814F5C08800A8A015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51D7702A14F5C08800A8A015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone-Bootstrap/iPhone-Bootstrap-Prefix.pch";
+				INFOPLIST_FILE = "iPhone-Bootstrap/iPhone-Bootstrap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		51D7702B14F5C08800A8A015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone-Bootstrap/iPhone-Bootstrap-Prefix.pch";
+				INFOPLIST_FILE = "iPhone-Bootstrap/iPhone-Bootstrap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		51D7702D14F5C08800A8A015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPhone-Bootstrap.app/iPhone-Bootstrap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone-Bootstrap/iPhone-Bootstrap-Prefix.pch";
+				INFOPLIST_FILE = "iPhone-BootstrapTests/iPhone-BootstrapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		51D7702E14F5C08800A8A015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPhone-Bootstrap.app/iPhone-Bootstrap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhone-Bootstrap/iPhone-Bootstrap-Prefix.pch";
+				INFOPLIST_FILE = "iPhone-BootstrapTests/iPhone-BootstrapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51D76FF614F5C08800A8A015 /* Build configuration list for PBXProject "iPhone-Bootstrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D7702714F5C08800A8A015 /* Debug */,
+				51D7702814F5C08800A8A015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51D7702914F5C08800A8A015 /* Build configuration list for PBXNativeTarget "iPhone-Bootstrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D7702A14F5C08800A8A015 /* Debug */,
+				51D7702B14F5C08800A8A015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51D7702C14F5C08800A8A015 /* Build configuration list for PBXNativeTarget "iPhone-BootstrapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D7702D14F5C08800A8A015 /* Debug */,
+				51D7702E14F5C08800A8A015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51D76FF314F5C08800A8A015 /* Project object */;
+}
